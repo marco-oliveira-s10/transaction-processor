@@ -1,6 +1,6 @@
 # Processador de Transações Bancárias
 
-O objetivo é processar transações bancárias, detectar duplicatas segundo critérios específicos e otimizar para performance.
+Este projeto implementa o Teste 1 (Teste de Lógica Avançada) para a posição de Desenvolvedor Sênior. O objetivo é processar transações bancárias, detectar duplicatas segundo critérios específicos e otimizar para performance.
 
 ## 📋 Requisitos
 

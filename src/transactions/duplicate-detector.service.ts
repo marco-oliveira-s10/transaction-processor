@@ -1,5 +1,3 @@
-// src/transactions/duplicate-detector.service.ts
-
 import { Injectable, Logger } from '@nestjs/common';
 import { Transaction, TransactionKey } from './interfaces/transaction.interface';
 

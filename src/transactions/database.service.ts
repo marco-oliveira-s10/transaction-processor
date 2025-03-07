@@ -1,10 +1,11 @@
-// src/transactions/database.service.ts
-
 import { Injectable, Logger } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { TransactionEntity } from './entities/transaction.entity';
 import { Transaction } from './interfaces/transaction.interface';
+
+// Importação modificada para usar require
+const now = require('performance-now');
 
 @Injectable()
 export class DatabaseService {

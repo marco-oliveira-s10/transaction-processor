@@ -1,11 +1,11 @@
-// src/main.ts
-
 import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app.module';
 import { Logger } from '@nestjs/common';
 import { TransactionsService } from './transactions/transactions.service';
 import * as path from 'path';
-import * as now from 'performance-now';
+
+// Importação modificada para usar require
+const now = require('performance-now');
 
 // Aumentar o limite de memória heap (opcional, depende do tamanho do arquivo)
 // process.env.NODE_OPTIONS = '--max-old-space-size=4096';

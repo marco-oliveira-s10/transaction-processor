@@ -1,5 +1,3 @@
-// src/transactions/entities/transaction.entity.ts
-
 import { Entity, Column, PrimaryColumn, Index } from 'typeorm';
 
 @Entity('transactions')

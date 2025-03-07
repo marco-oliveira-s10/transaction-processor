@@ -1,5 +1,3 @@
-// src/transactions/interfaces/transaction.interface.ts
-
 export interface Transaction {
     id: number;
     valor: number;

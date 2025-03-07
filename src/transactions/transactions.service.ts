@@ -1,10 +1,10 @@
-// src/transactions/transactions.service.ts
-
 import { Injectable, Logger } from '@nestjs/common';
 import { FileReaderService } from './file-reader.service';
 import { DuplicateDetectorService } from './duplicate-detector.service';
 import { DatabaseService } from './database.service';
-import * as now from 'performance-now';
+
+// Importação modificada para usar require
+const now = require('performance-now');
 
 @Injectable()
 export class TransactionsService {

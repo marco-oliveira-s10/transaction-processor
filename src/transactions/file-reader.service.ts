@@ -1,5 +1,3 @@
-// src/transactions/file-reader.service.ts
-
 import { Injectable, Logger } from '@nestjs/common';
 import { createReadStream } from 'fs';
 import { chain } from 'stream-chain';
